@@ -1,0 +1,35 @@
+﻿
+<div class="row" >
+    <div class="col-md-4">
+        <form action="/api/excel/uploadFile" method="post" enctype="multipart/form-data">
+           
+            <input name="doc" type="file" />
+            <input type="submit" value="upload!" />
+        </form> </div>
+    <div id="result"></div>
+
+</div>
+<table>
+    <tr>
+        <th></th>
+    </tr>
+    <tr>
+    <td></td>
+</tr>
+</table>
+<script>
+    function productList() {
+        // Call Web API to get a list of Product
+        $.ajax({
+            url: '/api/Product/',
+            type: 'GET',
+            dataType: 'json',
+            success: function (products) {
+                productListSuccess(products);
+            },
+            error: function (request, message, error) {
+                handleException(request, message, error);
+            }
+        });
+    }
+</script>

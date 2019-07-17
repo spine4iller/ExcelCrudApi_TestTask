@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelApiApplication", "ExcelApiApplication\ExcelApiApplication.csproj", "{9F96383B-A09C-4AEF-8F22-FBC8542AC971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{DC78DE03-4390-4AAA-99EF-B2B2EB747ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F96383B-A09C-4AEF-8F22-FBC8542AC971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F96383B-A09C-4AEF-8F22-FBC8542AC971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F96383B-A09C-4AEF-8F22-FBC8542AC971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F96383B-A09C-4AEF-8F22-FBC8542AC971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC78DE03-4390-4AAA-99EF-B2B2EB747ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC78DE03-4390-4AAA-99EF-B2B2EB747ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC78DE03-4390-4AAA-99EF-B2B2EB747ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC78DE03-4390-4AAA-99EF-B2B2EB747ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27244722-110B-445A-9A71-37F3646F420A}
+	EndGlobalSection
+EndGlobal
